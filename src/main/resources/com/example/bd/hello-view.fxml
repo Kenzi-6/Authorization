@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bd.HelloController">
+   <children>
+      <Button fx:id="bt" layoutX="276.0" layoutY="281.0" mnemonicParsing="false" onAction="#initialize" text="Войти" />
+      <ImageView fitHeight="103.0" fitWidth="378.0" layoutX="130.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../DS2017_TP09_color.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf" layoutX="226.0" layoutY="188.0" promptText="Логин" />
+      <PasswordField fx:id="ft" layoutX="227.0" layoutY="232.0" promptText="Пароль" />
+   </children>
+</AnchorPane>
